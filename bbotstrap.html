@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+        <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <div class="container-lg border">
+            <div class="row justify-content-center align-items-center">
+                <div class=" col-12 col-md-6 col-lg-4 order-md-2  bg-primary">
+                    column 1
+                </div>
+                 <div class="  col-12 col-md-6 col-lg-4 order-md-1 bg-secondary">
+                    column 2
+                </div>
+                 <div class=" col-12 col-md-6 col-lg-4 order-md-0 bg-success">
+                    column 3
+                </div>
+            </div>
+            </div>
+            <p class="h1">heading 1</p>
+            <p class="display-1">display 1</p>
+            <p class="lead">highlight</p>
+            <p class="fw-bold">bold text</p>
+            <p class="text-muted">muted text</p>
+            <p class="text-uppercase">uppercase</p>
+            <p class="text-capitalize">text capitalize</p>
+            <p class="text-lowercase">text lowercase</p>
+             
+            <button type="button" class="btn-primary border" data-bs-toggle="modal" data-bs-target="#mymodal">open modal</button>
+            <div class="modal" id="mymodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="header">
+                            <div class="title">modal title</div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">modal body</div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn-danger" data-bs-dismiss="modal">close</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="card border-primary mb-3 shadow-lg" style="max-width: 18rem;    ">
+                <div class="card-header">Identity card</div>
+                <div class="card-body">
+                    <h5 class="card-title">Student profile</h5>
+                    <img class="card-img-top rounded-pill"src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAugMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAgMEBgcAAQj/xABDEAACAQMCAwYEBAQDAw0AAAABAgMABBEFIQYSMQcTIkFRkTJhcYEUI6GxFUJS0RYlwTTh8AgkM0NEU1RygpKTorL/xAAZAQADAQEBAAAAAAAAAAAAAAABAgMABAX/xAAjEQADAAEEAQUBAQAAAAAAAAAAAQIRAxIhMQQTIkFRYTIU/9oADAMBAAIRAxEAPwDTHJjupUUbZqDKvNLk0StbeS6Mkijz6nzqLcwSRzFXQiqo5tuOTOOI4f8AMZP/ADUOvoPygflR/iKP/M3PzFD7+L8j7VRioE6Dp63l0ymroeHIxCpAGwqv8Hp/mDAitL5VEO48qVsZLJRJdI5cgKKbOm48qtkixOx3FCtcvbXSbQzTZdztHGPM/wBqG7A2zL4BIsN8YOfTFemwI2INU3iPibUp4QltMYlbqIhjH3qprcXQl778ROrg55u9bINItVMo/Ha7NcWxy3Q1ITTs/wAvvVKtOP7+LujdW8VyseFkZBhmHr6ZrU9JntdRsYbu0YPDIvMCKO/6J+ngAS6fgHw+VCLu15WOav8ALAhBGBVc1a0OTyoTRVZFc4A1lAuRmiiQJ6VDhhmUjCNRe30+Z4+ZvDnoCKDRlSIxt09KYuIFA261LeKaN+RlOaaktrmQ+FDQUsLpEO3RQfWjFgAXVRUa30y5/oFEbWynjkUlRVkSbJt/AgtHJH8tWDhOYT6dCVUgBcb0Fu4JHsnU4zy1adAjWPR7MKoH5K59qTUfA8S3eQgfhpjb1p2QEjY0xyD51E6We2HL+FTlx03A9ahaqytIig5YdaHB5YZHEUrKOY7A16gYsXYksfMmmS5Jt5WAPqekJd3bSVFn4fEiYwKtCqPSl8o9KfcLtRX9D4ahs5DJyjnPnVhltfBgDyp+AAeVOudt6VsdSkCF02MZYrmsr7R+/mv2CKyog5F+Q6mtfvLhbW3klf4UUsao+s9zPpl1dyIrrGhztuSDj9WOPoKVlIeDJIuZ+S1ETSvIeVIx19aN2nBVxMnPfDu89I4+i/3op2f2UI1GfULtJY0GUjk7olST138sDlH1zV+dLYI80kwEQGc1x6zc/wAnfo7Ws0ZRq3CklhbNNEGKAEkfKrR2PXv/ADifTDJ+XJH3satvgg+LFHldLyJljtbiSA5yxUDI+hOTWcG6/wAHcc2zrtEk6yYz1ibZh7Z9q3j3XVC+VE4zJvP4IE/DSJNPjbqgogrK6h0OVYZB9RSWrtPPwDP4bCP5B7U6LdVGMCpRpJFHIuEDJbKN35iuTSltY1GMVOYU0y8xo5NtQyI0A2FeMq+lOtGQN6bYYrJgwds8TjFHtK2063A8kAoNAPA9GdL2s4/TFCmGf6JZ6U3tSmNeYFIUwVo/GadSmz1pxKoTHBS1NIFKFAxJhrrqVIIJJpDhEXmY/IV5Cdq8u4lnt5InGUdSrfQ0BjOuLeKebS4+7cIbuQYHTCAc2P0HvQfUr0W/BCtI5JvGVt+pRcsffBqocQTz3WvQ6ZCxYQHuVIGcuzDJH7VZOKoka50zSYyO5gMdsp9cY5yfsG96WngtKy0iHwxZ6+sdu8czhJMuYV/qZs77dMfOtE1q1nis4VVfzu6BwfM0vTjnXYreyiHcwIDJjY9Nt6XxFqgN9GqxPzcoUqDjlPnv0rh1abjJ6EQlan8Kpp1tri6k0iXwEYdSqOnMOXzG2N/vVU7YLQ/xW0ukUf8AQYcA9PEf71pWm3HMSsoUOhKtVE7Tbmya+EJmX8TFBzOhH8hPTPqc9KGldVYdfTUwzSey7WTrPBdjLIczQAwSn1Zds/cYNWhzvVB7EEX/AAa8wUL3t5K3KOi7jGKvj9a9E8h/QmuryuJogPG6U2DhqWTtTTVjCmYEUy42pQ61zVgCrYfF9KJ2E6CEJ5ihtvsTVX4yvZrNYpIJWjYtjKtg1tu4Wq28o0IzR5xke9Od4lYKeJ9UtpGkhunO/RzmnP8AH2v/APiI/wD4xSbaQq1q+jUz1pab0hviIp2IVQocTiuDjFRr66SAZJFRBfK3wmtgV1gP2+/SnWFDtPul5B4hUm4uF5CAdyNsGgOjLbjSNJ0jUr3iK4lnlIlc28KQklTkjIxnJ9CfrVL0fiO2uuNIJtU5YrVmKxnPhhz0z9T1rSeNII5dN/CPdLE/Kqrg426H61geoQoL+4jiYtFGSOc+370lJNNFYePcfTWn6OsmprqCzyLGFwY1bwSbHHNjr123oTrjW7apIkdiOfosjyOVHzwCKT2VapPc8J2MhfvAFMboxyVKkj9cZ+9S9av0ju2/JYsOm1cdVsnB6OjzefsEoqaNFLPcTSTBV5iznLbCsR1nVX1vW59QmHL30gwP6VGwHtWxTtJfvL3u/MpHL5DO1Y00H8L1BoruElFcr4hsQDS+K0289g8xPCx0fRXZs+nR8KWcGlle6UczYfm8ZPiz86s0jgVmnA1naWU0t7olyWtZ+XliLc2D1I+g2q56hqSwR5bAPpXemeTVBIzDPWvDKKr8erq+CfOnW1JNgppt0k9wZ74U20o9aHxTGTcGlktnbek9Sc4H5xknK49aVzZqEjODup3qSlOCXkkQneq1xnpb31uvdtgq2c4qyw7UxqHKUOelHOBbWUY3f6fPbhhJjahfKfUVp2o2cF1OsTdG6mljhezwPCvtWdoRJstT/GacVuUUP1O/gsiO9kA+tKtb+GdPAQc1i4A4wuHGFRsZNR7ITLbBi2dutSOKbNrgBo26HpUW2jlFr3bsQcbmjWccEG1nkW2sPbrt+9P6frAcvc3kvLbxDz/nPkMUEnigFynfMzJzeM/LzrziKS3ubQ3FtHLFbxDA5RgZNc8U2zpjDWSo8e8VXWo3ckOyhSVj5R8APp86oRLxo8APxkF1HyqyXHdRzSM5UhUZip9cbD9Qag2OkvqFxZdwcy3allUeoLD91NOypqfYZMBpM1s//fMw/arlrenG41NVUYBHpQHsx4du9Je4M3dogblUefrn2Iq82imaVppk5DzHlB3+9c9xuOmLcMossOJJu5UkIxTP0oBxHobXOj31wLdPybd5XkcfCFFakmlW8eV38TZ+pND+PrdNP4A1hIVw00JQk9TnbFT09D3lNTysS0Yxwpa6jp1vDcWLGGSYcxIXqPLNWJ9f1OK8tLS8hS5N1KkSH4DlmC+m+7CiN7cW+iaRp8MYVruW3XlU/wAq7ZY/8bn71GsYoX7VrC2I5o450A5jn4Y3YfqBXqWp24PKS3Pkumr6C+mwFlw6qPjUdKrMN0e88W4rXZxzZVwCp2II6iqNfcORQXkncA92TzKPQHyrmUJvklq6VLmSFaX8ajAJLelWDSeWU5bG/rQYaWIJOcLkYolYsVHhqV6WysoMU1ww1cwoI8jFQFO9Iu7uVE3G1An16OGUrIcGnnWnphdLJZ4jTN6DInKvn50MtNct5V+NenrUlLxGwwGR8jVcpozargHS6HfSyiSOZV322qculagFGbhenoakrrMCnBVjjal/xq3/AKG9qmnpsp/ncmXcU3Gr6jeB/wAPKsa9PDXcJz30usRWwd2HmCavFxeWpsC7I7HG35ZJ/aqhomofhNXeeW0uUhztIYiMU5Q1JNItnjXvk5m+tQtZ06KK0fuECkDahr8YRTyJa2BledtlHLt9TUyWeeKEDUTnmGSQdqZc8E6SwZ0yXlxqDRyqUjKthgNyev8ApRXjO609eDuHWhkMFtOUuHx8bYTofuxqy8Px2uocRJyhXEKNIQRkeg/esy7SoYNEhXToGaVIrqYRMzFjEnMdseRycfQUu1S+Bo6KPxDerdXLPDF3YIHMM55j/V8s+lXzsj00X+uaZJIu2m2U8zkeruVTPux+1ZyGBwqqd22xuTW79iuhy2vD91q9yCrX35aK4wQiMR++aH6VLfLZXVvqlrd2URlt5oxFcoD8BA8L+2x+1FJBIi5ZQv1IpxpEiQAyJkAedQ9UmtLm2eNpohz4Ukt8Kn4sUrSYU2P28Th+eXlJ5gFAOfvVX7W71bfhqSNhzBpYkx65YUak1/SLVY1SSRhGeiRnfH1qm8bXlrxLb/h1N1FH3qPnkXPhOfU0VUyZzVFB4hcrq0qyMWkEaAkH0XGB6Cp+h3r3fahw9cRgHv8Ak5gPVUbmNStbsbOSzvdR/DF7iOEuveyEqMDzAxnzoZ2R2zah2gRzSgkWUMkyKvRWI5V+3iNU9SbTwTem57PoKVslt84O58qH6gvhRx1Bx9qnTgRKsS9cZNQ9RfksZpD/ANWhf7CkXZmsoHSRqwpFrByyeEZoNPxJbouRv9Kk8Pa3De3Dx7jw8wP3xVGuCW1BS8QchBqicQ6c83O0KEkegrQLt45Ci7ZJpi7jghtWJ5VAGTmuWvHzWRXHJjlvZ6l+JCRF03xWo6RpjW9kvetl+TehC3Nu1wZo1GAdtutGDrCNb+hxV1CmRlPuQDnm5Z3GfOvPxQ9ah3DF3ZvnQ8zbnevMWdzweu1O1ZNrMEMY3VQPoKp3Gms6VaWUkTyxtKRgRoATQHW+K7rUFCwXHcREdF61QtTlTny78zZ3YmvUweaaR2WaVFNbz6rKgMkkjJGW3woqTxq800otLNdl8TNmiHZ2Uh4VtADuV5j9TQPU9WRNUnZwD4sCkee0NKTfJO7LtNuLe81O5uepVEX3JP8ApWZ8epdW+u6vpd20Ti61CS6gIbmZFL+foCpxW18DTLc6VLcoMB5iB88DFZj206XNbXtjdxQdzGyrELrbJbrjbc9POjOX2ZpJ8A/sotZLXjAiFMo1lKknKNlxysGP3GM/OtacEk1jXZ/qT6fxRBbzlo+/KqTvh8b+XqC3sK2d+vTFLq/g0ckSdMmo0igJ0qbItQ5s75qLLoE3EQ5icDeoNwox0olP50Pn3G1TZREJo++t7iAgYniMbZ9MH+9C+wsqnEGoM5xIbaMH5AE5PuBRiNSJM0I7NDHYcW6pbOeV5XEK/QyE1TQfLRLyJ6ZtSBpSZmGC3QfKkTxJcQywP8MiFD9xiphXm+Q9PKmC3jwo2H610HMZLFowKDmdunrRjQNMW2eRwT6DelxSw/i9QtmIMltdPGyg7jJ5l/8AqRU23uIkQjBFOKMajJcC8gEczqARnBp/VEe4sXSRyQVO1RJ7hHuObBO9PyXaOhUKa2AEG305BHsDSHsnTZAT96M2rrgeDyqdDEknVKzRkU+a0uGGFQ0MbTbnmPhPWtNFrHy/AKim2jyfAPak9OSm+jMYuGb1lVsHGPWlNwTPckc+fej9lr/OioqE7elG7S/5wGxj7Ur1ontjTo3XwK4ftZ9N0tLUZwi4G9C9Q0AXDljnJJJNWi1uFcHNQr27SNm3FNLVcoSpcvDJ/DGlT2vDcKWk5hmEjsCRzBvF0I9KXq0NvrNmdN1u1EcwYPGCcozDzVv9OtF9HYDRrRz0aMN77/617erDcoY5FVlPkd6nc1ndD5GlrqjAOJ9POndqOmwPLywmWExEgAKrZH7jFbTMCGPN1oRrOgaZ/HbG7u7FNTn5TFBHMCzKAebbyyPU+9G9ajEkCCNTHsPCu2Pak9TenlcorOnhrD4ZEcjFQrih17qF5psZllie5gB8TInjUfbrSE1m1uE5hIAfQ7Ee9JuysltjTPbk1Ak9Kdnu42+F0P8A6qid+rHqPekbKTJ6F3qpxTfgO0qzB5uWe8izyjJPMBj9at0m8bKr8rEEKwGcH1ofYaZqEvaNo+o22k3c9tGoMk3Jyxpsy5LNgfzA467bCn0V7ifkJbTZShKcoOB5kUyyBNhUksFX+Uffao0vPnmfA+ldRxGTajK9n2v3dipYW+o2qTMoHVwuM+wq1LZqPOqxx7JFp/ajoF5M6xRTWjKzscD4iOv3FWxW50DIysp3BByD9DTIDGjYxk9acWyiHzpagnrTir9aIo7bW6CpscSjpUWLapSmsYewOXFN92tdzbUjnNYJhml66lvjxCjI4vWPAGfaqjDprJ0NS002VsbZH0qL0ofwWWtqLhMvWi8XJdyPHg8wGelQ+JtVliZ2XIHLmh2iaeYJw/TapeuWnfIfM8pFUlJLCJ023lmzaYottFsI5Mkrbxrj1IUV7K2W3UqCMqMjJr2yHPYWrRnm5oE5SegGBvXNypN3cK80zDLMw6D1P9qBiDLqEMV/bW3dkzzK5QkfDyjJ966SWOXeTbNT5LKCXlMy87Kchj1B+XpVW1hbSwv5AskzkKGaKJWcrk7fSp3ktp4bCs1zHbR8ygZ8qpWta0rXDCRQcdObehnEvGctvKqW2i37xqOskLqv32qr3fFUN3L3k1kLY+fiOf1AqNJ0dUNSWqG8hm+KGM/apcP4RSHaCMMCCDiqdFrFi/L3U2GPrU+NpriNmhlVx6q2ajtwzoVp8Gz6fcwzWkM8KookQN4Vx/xvTj3P6etUfgq/l/hUtpI2ZLZiyj1Rv7HPuKNG/U5ztjrXfDTk825aZYROrDmTxRtuR6U00kmxiPMvofSgltfqkwCthTtvU1rrL53BzTMk+zJP+UKyfj9BcZ3imBB9OZf99Pdjmr/ibO70l/8As2JIsnPgPl9j+4qt9smtRazxG8VuwePT1EHMD1fJL/qQPsaj9kd+lvxZbxMQGljeEjyYdR98ishWboF3pwLXcyD+Ye9ed4n9Q96YUdXanVO1R+9j/rX3rhNH/WvvWMS13pJ60ytzEp3dfevDdQ5+JfeibJjSSH0HtT8dy6nYL7V1dUxydb3kgcYC+1P31w7ICcb/ACrq6igM1XhS4kk4R0+VjlxAFz8hsP0FFI1CjI6+ZPnXldQCLz0+tUPhy4kuUubqU5mmupWdvXDED2AA+grq6korpdsNookBLjP1rjbQMpJhQ7ea15XUhVGZ8U2sMGqtNDGqP6qMUJjkLEuQObfcbV1dUvkuujQOEtPt5NMt9TwyXBikDcreFuo3H2oHxfrNxpcIa2SIs2d3BP7Gurq6J4RKiPquqXVrwFDrsDBL1o0fplck77Gszn464luldW1SWNWXlIiAXY/PGa6up0c19gZBmC4B8gv/AOqVpNxJaarazwNyyJICprq6iTNEk4k1Mk/n4+gpk8QamT/tBr2upxBxNY1CTHNcv9qkpfXjbG7m966urGJlvLcN1upv/cP7VMHfY/2mb3H9q9rqcQ//2Q==" alt="">
+                    <p class="card-text">john doe</p>
+                    <a href="#" class="btn btn-primary">go somewhere</a>
+                </div>
+
+
+            </div>
+            <div class="dropdown">
+                
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">menu</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">item 1</a>
+                    <a href="#" class="dropdown-item">item 2</a>
+                    <a href="#" class="dropdown-item">item 3</a>
+                </div>
+
+            </div>
+            <div class="footer position-fixed bottom-0">
+                <i class="bi bi-whatsapp"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+            </div>
+       
+    </body>
+</html>
